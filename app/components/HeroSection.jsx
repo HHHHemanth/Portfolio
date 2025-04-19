@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { AuroraText } from "@/components/magicui/aurora-text";
+
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 md:px-12">
@@ -11,10 +12,7 @@ const HeroSection = () => {
         {/* Text Section */}
         <div className="col-span-7 text-center sm:text-left">
           <h1 className="text-white mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
-          <AuroraText className="text-transparent bg-clip-text "> Hello, I'm{" "}</AuroraText>
-            {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-100 via-purple-400 to-blue-600">
-             
-            </span> */}
+            <AuroraText className="text-transparent bg-clip-text "> Hello, I'm{" "}</AuroraText>
             <br />
             <TypeAnimation
               sequence={[
@@ -26,10 +24,9 @@ const HeroSection = () => {
                 2000,
               ]}
               wrapper="span"
-      speed={50}
-      
-      repeat={Infinity}
-    />
+              speed={50}
+              repeat={Infinity}
+            />
           </h1>
 
           <p className="text-[#ADB7BE] text-md md:text-lg lg:text-xl mb-8 max-w-xl font-sans">
@@ -38,15 +35,25 @@ const HeroSection = () => {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-            <button className="px-6 py-3 rounded-full text-white bg-gradient-to-br from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] hover:opacity-90 transition duration-300 font-semibold font-sans">
-            {/* colors = ["#B0E9FF", "#9130FF", "#0D82FF", "#0D25FF"] */}
+            {/* Hire Me Button */}
+            <a 
+              href="mailto:hemanths1ga21cs066@gmail.com" 
+              className="px-6 py-3 rounded-full text-white bg-gradient-to-br from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] hover:opacity-90 transition duration-300 font-semibold font-sans"
+            >
               Hire Me
-            </button>
-            <button className="px-1 py-1 rounded-full bg-gradient-to-br from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] hover:opacity-90 transition duration-300">
+            </a>
+
+            {/* Download CV Button */}
+            <a 
+              href="https://drive.google.com/file/d/1kbU0OnIeMBN1myyGgGl0vvtpbL1Zg82i/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-1 py-1 rounded-full bg-gradient-to-br from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] hover:opacity-90 transition duration-300"
+            >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 text-white font-semibold font-sans">
                 Download CV
               </span>
-            </button>
+            </a>
           </div>
         </div>
 
