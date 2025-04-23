@@ -12,7 +12,7 @@ const HeroSection = () => {
         {/* Text Section */}
         <div className="col-span-7 text-center sm:text-left">
           <h1 className="text-white mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
-            <AuroraText className="text-transparent bg-clip-text "> Hello, I'm{" "}</AuroraText>
+            <AuroraText className="text-transparent bg-clip-text "> Namaste, I'm{" "}</AuroraText>
             <br />
             <TypeAnimation
               sequence={[

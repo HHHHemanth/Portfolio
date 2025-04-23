@@ -126,7 +126,7 @@ export default function ExpandableCardDemo() {
             <div className="">
               <motion.h3
                 layoutId={`title-${card.title}-${id}`}
-                className="font-medium text-neutral-600 text-center md:text-left hover:text-black">
+                className="font-medium text-neutral-600 text-center md:text-left ">
                 {card.title}
               </motion.h3>
               <motion.p
