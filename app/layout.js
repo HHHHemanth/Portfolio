@@ -20,6 +20,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "HS Portfolio",
   description: "Created by Hemanth",
+  icons: {
+    icon: "images/toplogo.png",
+  },
 };
 
 export default function RootLayout({ children }) {

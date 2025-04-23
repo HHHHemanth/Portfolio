@@ -144,3 +144,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Global CSS or Component Level CSS */
+@media (min-width: 1024px) {
+  .link-preview {
+    display: block !important;
+  }
+}
+

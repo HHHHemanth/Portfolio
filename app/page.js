@@ -3,6 +3,8 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
+import CreativeSection from "./components/CreativeSection";
+import QuoteSection from "./components/QuoteSection";
 export default function Home() {
   return (
     <main className="bg-[#121212] min-h-screen flex flex-col">
@@ -11,7 +13,8 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ProjectSection/>
-        <div className="py-150 pb-2 px-4"></div>
+        <QuoteSection/>
+        <CreativeSection/>
       </div>
     </main>
   );

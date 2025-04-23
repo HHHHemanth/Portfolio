@@ -117,8 +117,8 @@ export default function ExpandableCardDemo() {
           <div className="flex gap-4 flex-col md:flex-row ">
             <motion.div layoutId={`image-${card.title}-${id}`}>
               <img
-                width={100}
-                height={100}
+                width={200}
+                height={200}
                 src={card.src}
                 alt={card.title}
                 className="h-40 w-40 md:h-14 md:w-14 rounded-lg object-cover object-top" />
@@ -183,12 +183,12 @@ const cards = [
   {
     description: "Java Full Stack Development",
     title: "Wipro",
-    src: "/images/certificates/jfs.jpg",
+    src: "/images/certificates/jv.jpg",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
-        (<p>Completed the Java Full Stack Development course offered by Wipro, covering comprehensive concepts in both frontend and backend development. The course included hands-on training in Java, Spring Boot, HTML, CSS, JavaScript, and databases, enabling full-cycle web application development. It provided a solid understanding of RESTful APIs, MVC architecture, and integration between client and server. This certification strengthened my ability to develop scalable, responsive, and user-friendly applications, aligning with current industry needs.
+        (<p>Completed the Java Full Stack Development course offered by Wipro, covering comprehensive concepts in both frontend and backend development. The course included hands-on training in Java, HTML, CSS, JavaScript, and databases, enabling full-cycle web application development. It provided a solid understanding of RESTful APIs, MVC architecture, and integration between client and server. This certification strengthened my ability to develop scalable, responsive, and user-friendly applications, aligning with current industry needs.
                   </p>)
       );
     },
@@ -196,7 +196,7 @@ const cards = [
   {
     description: "Exploratory Data Analysis",
     title: "Global Academy of Technology",
-    src: "/images/certificates/dans.jpg",
+    src: "/images/certificates/py.jpg",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
@@ -210,7 +210,7 @@ const cards = [
   {
     description: "Database Management Systems",
     title: "NPTEL",
-    src: "/images/certificates/dbms.jpg",
+    src: "/images/certificates/sql.jpg",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
