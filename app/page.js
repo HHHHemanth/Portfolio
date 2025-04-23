@@ -11,6 +11,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ProjectSection/>
+        <div className="py-150 pb-2 px-4"></div>
       </div>
     </main>
   );
