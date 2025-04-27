@@ -37,7 +37,7 @@ const projectsData = [
 
 const ProjectSection = () => {
   return (
-    <div className="py-10 pb-2 px-4">
+    <div className="py-10 pb-2 px-4" id="projects">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-2">
         <AuroraText className="text-transparent bg-clip-text">My Projects</AuroraText>
       </h2>

@@ -37,11 +37,11 @@ const EmailSection = () => {
       
   
     return (
-        <section className="relative grid md:grid-cols-2 my-12 py-24 gap-4">
+        <section className="relative grid md:grid-cols-2 my-12 py-24 gap-4" id="contact">
             
 
 
-            <div className="bg-[radial-gradient(ellipse_at_center,_#0D82FF,_#9130FF)] rounded-full h-80 w-80 z-0 blur-2xl absolute -bottom-30 -left-50"></div>
+            <div className="bg-[radial-gradient(ellipse_at_center,_#0D82FF,_#9130FF)] rounded-full h-80 w-80 z-0 blur-2xl absolute -bottom-10 -left-55"></div>
 
             
             {/* <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div> */}
@@ -123,7 +123,7 @@ const EmailSection = () => {
                 {/* </div> */}
                 <button
                     type="submit"
-                    className="bg-gradient-to-r from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] text-white py-3 rounded-full hover:opacity-90 transition duration-300 font-semibold"
+                    className="bg-gradient-to-r from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] text-white py-3 rounded-full hover:opacity-90 transition duration-300 font-semibold cursor-pointer"
                 >
                     Submit
                 </button>

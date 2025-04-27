@@ -6,7 +6,7 @@ import { LinkPreview } from "@/components/magicui/link-preview";
 
 export default function ShowcaseSection() {
   return (
-    <>
+    <section id="skills">
       {/* Title Section */}
       <h2 className="text-3xl sm:text-4xl font-bold text-center pt-8 mt-4">
         <AuroraText className="text-transparent bg-clip-text">
@@ -50,6 +50,6 @@ export default function ShowcaseSection() {
 
          
       </div>
-    </>
+    </section>
   );
 }

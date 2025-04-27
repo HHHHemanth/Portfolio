@@ -7,6 +7,8 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 md:px-12">
+     
+
       <div className="grid grid-cols-1 sm:grid-cols-12 gap-8 items-center">
         
         {/* Text Section */}

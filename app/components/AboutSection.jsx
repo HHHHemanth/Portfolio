@@ -45,7 +45,7 @@ const AboutSection = () => {
     }
 
     return (
-        <section className="bg-[#121212] text-white py-12 px-4 sm:px-8 lg:px-16">
+        <section className="bg-[#121212] text-white py-12 px-4 sm:px-8 lg:px-16" id="about">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 {/* Image */}
                 <div className="flex justify-center">
