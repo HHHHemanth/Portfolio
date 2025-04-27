@@ -1,7 +1,8 @@
 import Link from "next/link";
 const NavLink=({href, title}) => {
   return (
-    <Link href={href} className="block py-2 pl-3 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
+    <Link href={href} className="block py-1 px-2 text-sm text-[#ADB7BE] rounded md:p-0 hover:text-white"
+
     >{title}</Link>
     );
 };

@@ -37,7 +37,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             {/* Hire Me Button */}
             <a 
-              href="mailto:hemanths1ga21cs066@gmail.com" 
+              href="mailto:hemanths1ga21cs066@gmail.com?subject=Hiring%20Request&body=Hi%20Hemanth,%20I%20am%20interested%20in%20hiring%20you." 
               className="px-6 py-3 rounded-full text-white bg-gradient-to-br from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] hover:opacity-90 transition duration-300 font-semibold font-sans"
             >
               Hire Me
