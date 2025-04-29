@@ -31,7 +31,8 @@ const HeroSection = () => {
             />
           </h1>
 
-          <p className="text-[#ADB7BE] text-md md:text-lg lg:text-xl mb-8 max-w-xl font-sans">
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-8 max-w-xl font-sans">
+          {/* text-[#ADB7BE] text-base sm:text-lg leading-relaxed */}
             Enthusiastic Computer Science student skilled in coding, design, and data science. Eager to learn, innovate, and contribute meaningfully.
           </p>
 

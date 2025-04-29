@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className='fixed top-0 left-0 right-0 z-10' style={{ backgroundColor: 'rgba(18, 18, 18, 1)' }}>
         <div>
             <div className='flex flex-wrap items-center justify-between mx-auto p-4 py-2'>
-            <Link href="/" className="text-lg lg:text-xl md:text-xl text-white font-semibold">
+            <Link href="/" className="text-lg lg:text-xl md:text-xl text-white font-semibold font-sans">
   <div className="relative w-[60px] h-[60px] lg:w-[80px] lg:h-[80px]"> {/* Adjust size as needed */}
     <Image
       src="/images/toplogo.png"
