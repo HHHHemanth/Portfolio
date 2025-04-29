@@ -49,7 +49,7 @@ const ProjectSection = () => {
           <div className="flex flex-col items-center space-y-10">
             {projectsData.map((project) => (
               <CardContainer key={project.id}>
-                <CardBody className="lg:w-150 h-130 md:w-100 sm:w-75 bg-white rounded-xl shadow-md p-4 flex flex-col items-center justify-center sm:px-6 md:px-8">
+                <CardBody className="lg:w-150 h-130 md:w-100 sm:w-75 bg-white rounded-xl shadow-md p-4 flex flex-col items-center justify-center sm:px-4 md:px-8">
                   <CardItem translateZ={40} className="w-full flex items-center justify-center">
                     <div className="relative w-full h-[250px]">
                       <Image
