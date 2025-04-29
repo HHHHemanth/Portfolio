@@ -9,7 +9,7 @@ export default function ShowcaseSection() {
     <section id="skills">
       {/* Title Section */}
       <h2 className="text-3xl sm:text-4xl font-bold text-center pt-8 mt-4">
-        <AuroraText className="text-transparent bg-clip-text">
+        <AuroraText className="text-transparent bg-clip-text mb-10">
           My Creative Side
         </AuroraText>
       </h2>

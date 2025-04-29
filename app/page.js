@@ -9,6 +9,7 @@ import { Globe } from "@/components/magicui/globe";
 import EmailSection from "./components/EmailSection";
 import FooterSection from "./components/FooterSection";
 import ScrollText from "./components/ScrollText";
+import InternshipSection from './components/InternshipSection'; 
 export default function Home() {
   return (
 <main className="flex min-h-screen flex-col bg-[#121212]">
@@ -24,6 +25,7 @@ export default function Home() {
         <QuoteSection />
       </div>
     </div>
+  <InternshipSection />
     <CreativeSection/>
     <EmailSection/>
     <FooterSection/>

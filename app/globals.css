@@ -158,3 +158,12 @@ html {
 #about, #projects, #skills, #contact {
   padding-top: 80px; /* Adjust this based on your navbar height */
 }
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}

@@ -3,9 +3,21 @@ import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const cards = [
-  { title: "Global Academy of Technology, Bengaluru", src: "/images/edu/gatl.jpg" },
-  { title: "PES PU College, Bengaluru", src: "/images/edu/pesl.jpg" },
-  { title: "Websters High School, Bengaluru", src: "/images/edu/webl.jpg" },
+  {
+    title: "Global Academy of Technology, Bengaluru",
+    year: "2021-25",
+    src: "/images/edu/gatl.jpg",
+  },
+  {
+    title: "PES PU College, Bengaluru",
+    year: "2019-21",
+    src: "/images/edu/pesl.jpg",
+  },
+  {
+    title: "Websters High School, Bengaluru",
+    year: "2007-19",
+    src: "/images/edu/webl.jpg",
+  },
 ];
 
 export const Card = React.memo(({ card, index, hovered, setHovered }) => (
@@ -28,8 +40,13 @@ export const Card = React.memo(({ card, index, hovered, setHovered }) => (
         hovered === index ? "opacity-100" : "opacity-0"
       )}
     >
-      <div className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">
-        {card.title}
+      <div className="text-left text-white">
+        <div className="text-xl md:text-2xl font-semibold">
+          {card.title}
+        </div>
+        <div className="text-sm md:text-base text-neutral-300 mt-1">
+          {card.year}
+        </div>
       </div>
     </div>
   </div>

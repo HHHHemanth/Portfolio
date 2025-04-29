@@ -8,30 +8,38 @@ const projectsData = [
   {
     id: 1,
     title: "Smart Response System for Airline Queries with Machine Learning",
-    description: "A machine learning system for automated airline query handling and feedback evaluation via a Telegram chatbot, with results displayed on an interactive dashboard",
+    description:
+      "A machine learning system for automated airline query handling and feedback via a Telegram chatbot, with results displayed on an dashboard",
     image: "/images/projects/air3.jpg",
     tag: ["All", "Web"],
+    githubUrl: "https://github.com/HHHHemanth/airline-response-system",
   },
   {
     id: 2,
     title: "Gym Management System",
-    description: "The Gym Management System is a CLI-based Java application that features an interactive interface for efficient gym management. Built with file handling capabilities, it allows for seamless data storage and retrieval",
+    description:
+      "The Gym Management System is a CLI-based Java application that features an interactive interface for efficient gym management. Built with file handling capabilities, it allows for seamless data storage and retrieval",
     image: "/images/projects/gym3.jpg",
     tag: ["All", "Web"],
+    githubUrl: "https://github.com/yourusername/gym-management",
   },
   {
     id: 3,
     title: "Email_Guardian (Email Spam Detection)",
-    description: "Email Guardian is a spam detection system using the Naive Bayes algorithm to classify and filter unwanted emails efficiently",
+    description:
+      "Email Guardian is a spam detection system using the Naive Bayes algorithm to classify and filter unwanted emails efficiently",
     image: "/images/projects/mail3.jpg",
     tag: ["All", "Web"],
+    githubUrl: "https://github.com/HHHHemanth/Email_Guardian",
   },
   {
     id: 4,
     title: "Sight Through Sound",
-    description: "Developing a low-cost device integrating YOLO and R-CNN models for real-time object detection with Kannada audio feedback, enhancing navigation and independence for visually impaired users",
+    description:
+      "Developing a low-cost device integrating YOLO and R-CNN models for real-time object detection with Kannada audio feedback, enhancing navigation and independence for visually impaired users",
     image: "/images/projects/ai3.jpg",
     tag: ["All", "Web"],
+    githubUrl: "https://github.com/HHHHemanth/Sight-through-Sound",
   },
 ];
 
@@ -67,6 +75,16 @@ const ProjectSection = () => {
                   <CardItem translateZ={10} className="text-center text-gray-600 text-sm mt-2">
                     <p>{project.description}</p>
                   </CardItem>
+                  <CardItem translateZ={10} className="text-center mt-4">
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-4 py-2 rounded-full text-white bg-gradient-to-br from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] hover:opacity-90 transition duration-300 font-semibold font-sans"
+                    >
+                      View on GitHub
+                    </a>
+                  </CardItem>
                 </CardBody>
               </CardContainer>
             ))}
@@ -96,6 +114,16 @@ const ProjectSection = () => {
                 </CardItem>
                 <CardItem translateZ={10} className="text-center text-gray-600 text-sm mt-2">
                   <p>{project.description}</p>
+                </CardItem>
+                <CardItem translateZ={10} className="text-center mt-4">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 rounded-full text-white bg-gradient-to-br from-[#B0E9FF] via-[#9130FF] to-[#0D25FF] hover:opacity-90 transition duration-300 font-semibold font-sans"
+                  >
+                    View on GitHub
+                  </a>
                 </CardItem>
               </CardBody>
             </CardContainer>
